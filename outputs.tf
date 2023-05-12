@@ -4,5 +4,5 @@ output "server_name" {
 }
 output "internal_ip" {
   description = "IP interna"
-  value = huaweicloud_compute_instance.access_ip_v4
+  value = huaweicloud_compute_instance.fixed_ip_v4
 }
