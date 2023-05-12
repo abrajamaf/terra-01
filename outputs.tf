@@ -17,9 +17,9 @@ output "nombre_del_server_DC02" {
 }
 output "internal_ip_DC02" {
   description = "IP internaen DC02"
-  value = huaweicloud_compute_instance.terra001.access_ip_v4
+  value = huaweicloud_compute_instance.terra002.access_ip_v4
 }
 output "public_ip_DC02" {
   description = "IP publica en DC02"
-  value = huaweicloud_compute_instance.terra001.public_ip
+  value = huaweicloud_compute_instance.terra002.public_ip
 }
