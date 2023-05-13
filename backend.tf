@@ -2,7 +2,7 @@
 terraform {
   backend "s3" {
     bucket   = "bid-vm-export"
-    key      = "terraform.tfstate"
+    key      = "terra/state01/terraform.tfstate"
     region   = "na-mexico-1"
     endpoint = "https://obs.na-mexico-1.myhuaweicloud.com"
 
